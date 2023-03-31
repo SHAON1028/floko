@@ -1,58 +1,96 @@
-*{
-    margin: 0 auto;
-   font-family: Neue Montreal;
-   background: #000;
-}
-nav{
-    background: black;
-    display: flex;  
-    align-items: center;
-    margin-top: 46px;
-    margin-left: 136px;
-    margin-right: 136px;
-    color:white;
+* {
+  margin: 0 auto;
+  font-family: Neue Montreal;
+  background: #000;
+ 
 }
 
-.menu{
-    display: flex;
-    font-size: 16px;
+body{
+   width: 1440px;
 }
-.menu li{
-    margin-right: 42px;
-    list-style-type: none;
+nav {
+  background: black;
+  display: flex;
+  align-items: center;
+  margin-top: 46px;
+  margin-left: 136px;
+  margin-right: 136px;
+  color: white;
 }
-.btn{
-    font-size: 16px;
-    font-weight: 500;
-    width: 128px;
-    height: 36px;
-    padding:10px, 24px, 10px, 24px;
-    border-radius: 23px;
-    background: #2C2C2B;
-    color: white;
-     cursor: pointer;
-;
+
+.menu {
+  display: flex;
+  font-size: 16px;
+}
+.menu li {
+  margin-right: 42px;
+  list-style-type: none;
+}
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  width: 128px;
+  height: 36px;
+  padding: 10px, 24px, 10px, 24px;
+  border-radius: 23px;
+  background: #2c2c2b;
+  color: white;
+  cursor: pointer;
+  border: none;
 }
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding:3px;
- margin-left: 3px; 
+  padding: 3px;
+  margin-left: 3px;
 }
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-.lan{
-    display: flex;
-    align-items: center;
-    gap: 2px;
+.lan {
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
-.flag{
-    width: 14px;
-    height: 14px;
+.flag {
+  width: 14px;
+  height: 14px;
 }
+.top-content {
+  height: 390px;
+  width: 844px;
+  margin-top: 96px;
+  text-align: center;
+  color: white;
+}
+.btn-header {
+  height: 58px;
+  width: 187px;
+  left: 535px;
+  top: 680px;
+  border: none;
+  border-radius: 29px;
+  padding: 15px 35px 15px 35px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sec-two {
 
 
+
+
+padding-top: 30px;
+padding-left: 20px;
+
+  margin-left: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+.sec-two span{
+  margin-right: 28px;
+}
