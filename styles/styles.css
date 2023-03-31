@@ -2,11 +2,10 @@
   margin: 0 auto;
   font-family: Neue Montreal;
   background: #000;
- 
 }
 
-body{
-   width: 1440px;
+body {
+  width: 1440px;
 }
 nav {
   background: black;
@@ -78,19 +77,33 @@ nav {
   font-weight: 500;
 }
 .sec-two {
-
-
-
-
-padding-top: 30px;
-padding-left: 20px;
-
-  margin-left: 80px;
+  padding-top: 30px;
+  padding-left: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
 }
-.sec-two span{
+.sec-two span {
   margin-right: 28px;
+}
+.event {
+  margin-right: 135px;
+  margin-left: 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: Manrope;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+.event p{
+  color: #BFBFBF;
+;
+  
 }
